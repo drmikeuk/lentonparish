@@ -5,7 +5,22 @@ body 					{font-family: 'Lato', sans-serif; font-size: 16px; color: black; backg
 header 					{background: white;}
 #header h1 				{/* hide */ position:absolute; left:-10000px;}
 .navbar 				{margin-bottom: 0; border-radius: 0px;}
-.nav > li > a 			{padding: 15px 10px}
+.navbar-nav > li > a 			{padding: 15px 15px}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.navbar   {padding-top:0; padding-bottom: 0}
+
+.navbar-nav>.active>a,
+.navbar-nav>.active>a:hover,
+.navbar-nav>.active>a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+
 .affix              	{position: fixed; top: 0;}
 
 #header .alert    {margin: 20px 20px 30px; font-size: 20px}
@@ -33,9 +48,20 @@ a 						{color: #003399;}
 .pale 					{background-color: rgba(245, 245, 245, 0.8); border: none;}
 .center 				{text-align: center;}
 main li 				{padding-bottom: 6px;}
-.thumbnail 				{padding: 19px; position: relative;}
+.thumbnail 				{padding: 19px; position: relative; display: block;}
 .thumbnail:hover 		{background: white;}
 .thumbnail .caption 	{text-align: center; padding-bottom: 0px;}
+
+.thumbnail>img, .thumbnail a>img {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
 .fa-stack 				{position: absolute; top: 4px; right: 3px;}
 .fa-stack-2x 			{color: #bbb;}
 .fa-stack-1x 			{color: black;}

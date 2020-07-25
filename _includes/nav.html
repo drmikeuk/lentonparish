@@ -9,8 +9,13 @@
       <ul class="navbar-nav mr-auto">
         {% comment %} Only include pages with `nav: yes` in the front-matter; sort on sortTitle{% endcomment %}
         {% assign pages = (site.pages | where: "nav","yes" | sort: "sortTitle" ) %}
-        {% for page in pages %}
-        <li class="nav-item"><a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        {% for item in pages %}
+          {% comment %} add .active to current page {% endcomment %}
+          {% if page.url == item.url %}
+        <li class="nav-item active"><a class="nav-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></li>
+          {% else %}
+        <li class="nav-item"><a class="nav-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></li>
+          {% endif %}
         {% endfor %}
       </ul>
     </div>
