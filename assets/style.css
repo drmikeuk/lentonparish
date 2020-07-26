@@ -82,7 +82,7 @@ main i 					{padding-right: 5px;}
 
 /* eco */
 .leaf           {text-align: center;}
-.leaf i         {font-size: 80px; color: #222; opacity: 0.4;}
+.leaf i         {font-size: 80px; color: #222; opacity: 0.4; margin-bottom: 12px}
 .leaf h3        {font-size: 24px;}
 .leaf p         {text-align: left;}
 
@@ -249,6 +249,7 @@ a.thumbnail 		 	{margin-bottom: 0px;}
 .coffee					{background: url(/images/1278coffee.jpg) no-repeat top center;  background-size: cover;  -webkit-background-size: cover; }
 .map					{background: url(/images/map.jpg) no-repeat center center ;  background-size: cover;   -webkit-background-size: cover; }
 .cross 					{background: url(/images/1184cross.jpg) no-repeat center center ;  background-size: cover; -webkit-background-size: cover; }
+.balloons 					{background: url(/images/balloons.jpg) no-repeat center center ;  background-size: cover; -webkit-background-size: cover; }
 .prioryworship 			{background: url(/images/prioryworship.jpg) no-repeat center center;  background-size: cover; -webkit-background-size: cover; }
 .coffeecup				{background: url(/images/coffee.jpg) no-repeat center center;  background-size: cover; -webkit-background-size: cover; opacity:}
 .megan 					{background: url(/images/1211megan2.jpg) no-repeat center center;  background-size: cover; -webkit-background-size: cover; }
@@ -311,6 +312,7 @@ a.thumbnail 		 	{margin-bottom: 0px;}
 .coffee					{background: url(/images/1278coffee.jpg) no-repeat top center;  background-size: cover;  -webkit-background-size: cover; }
 .map					{background: url(/images/map.jpg) no-repeat center center fixed;  background-size: cover;   -webkit-background-size: cover; }
 .cross 					{background: url(/images/1184cross.jpg) no-repeat center center fixed;  background-size: cover; -webkit-background-size: cover; }
+.balloons 					{background: url(/images/balloons.jpg) no-repeat center center fixed;  background-size: cover; -webkit-background-size: cover; }
 .prioryworship 			{background: url(/images/prioryworship.jpg) no-repeat center center;  background-size: cover; -webkit-background-size: cover; }
 .coffeecup				{background: url(/images/coffee.jpg) no-repeat center center;  background-size: cover; -webkit-background-size: cover; opacity:}
 .megan 					{background: url(/images/1211megan2.jpg) no-repeat center center;  background-size: cover; -webkit-background-size: cover; }
