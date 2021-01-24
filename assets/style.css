@@ -20,6 +20,8 @@ header 					{background: white;}
     background-color: #e7e7e7;
 }
 
+.navbar-light .navbar-nav .nav-link,
+#navbar2-collapse .navbar-nav .nav-link     { color: rgba(0,0,0,.7);}
 
 .affix              	{position: fixed; top: 0;}
 
@@ -48,7 +50,7 @@ a 						{color: #003399;}
 .pale 					{background-color: rgba(245, 245, 245, 0.8); border: none;}
 .center 				{text-align: center;}
 main li 				{padding-bottom: 6px;}
-.thumbnail 				{padding: 19px; position: relative; display: block;}
+.thumbnail 				{padding: 19px; position: relative; display: block; margin-bottom: 20px;}
 .thumbnail:hover 		{background: white;}
 .thumbnail .caption 	{text-align: center; padding-bottom: 0px;}
 
@@ -71,8 +73,8 @@ p.cta 					{font-weight: bold; margin-bottom: 0;}
 /* align icons in buttons */
 .btn i 					{vertical-align: middle; padding-right: 10px;}
 main i 					{padding-right: 5px;}
-/* center photos (often from flickr) */
-.img-responsive			{margin: 0 auto;}
+/* add in responsive post bootstrap upgrade; center photos (often from flickr) */
+.img-responsive			{margin: 0 auto; max-width: 100%; height: auto;}
 
 
 /* PAGE SPECIFIC */
